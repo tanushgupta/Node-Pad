@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/">
+    <title>NodePad</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+    <node-pad>Loding..</node-pad>
+    <!--<div class="footer">
+        Copyright &copy; Tanush Gupta
+    </div>-->
+<script src="/js/app/bundle.js"></script>
+<!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>
